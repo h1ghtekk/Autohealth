@@ -192,8 +192,8 @@ public abstract class BaseSensorActivity extends AppCompatActivity {
         // Создаем набор данных для текущих значений
         LineDataSet dataSet = new LineDataSet(lastEntries, sensorName);
         dataSet.setColor(getResources().getColor(R.color.green));
-        dataSet.setValueTextColor(getResources().getColor(R.color.white));
-        dataSet.setValueTextSize(14f);
+        //dataSet.setValueTextColor(getResources().getColor(R.color.white));
+        //dataSet.setValueTextSize(14f);
         dataSet.setDrawCircles(true);
         dataSet.setCircleColor(getResources().getColor(R.color.Background));
         dataSet.setCircleRadius(4f);
