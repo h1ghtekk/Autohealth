@@ -33,7 +33,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
         holder.tvTemperature.setText(String.format(Locale.getDefault(), "Температура: %d°C", data.temperature));
         holder.tvRpm.setText(String.format(Locale.getDefault(), "Обороты: %d", data.rpm));
         holder.tvSpeed.setText(String.format(Locale.getDefault(), "Скорость: %d км/ч", data.speed));
-        holder.tvMaf.setText(String.format(Locale.getDefault(), "MAF: %d кг/ч", data.maf));
+        holder.tvMaf.setText(String.format(Locale.getDefault(), "MAF: %d кг/с", data.maf));
         holder.tvThrottle.setText(String.format(Locale.getDefault(), "Дроссель: %d%%", data.throttlePosition));
     }
 
