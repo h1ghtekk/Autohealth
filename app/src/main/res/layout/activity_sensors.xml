@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/sensors_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Датчики автомобиля"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationY="15sp" />
+
+    <Button
+        android:id="@+id/vehicle_speed"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/vehiclespeed"
+        android:textSize="15sp"
+        android:translationY="45sp" />
+
+    <Button
+        android:id="@+id/engine_rpm"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/enginerpms"
+        android:textSize="15sp"
+        android:translationY="55sp" />
+
+    <Button
+        android:id="@+id/engine_temperature"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/enginetemp"
+        android:textSize="15sp"
+        android:translationY="75sp" />
+
+    <Button
+        android:id="@+id/mass_airflow"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/massairflow"
+        android:textSize="15sp"
+        android:translationY="95sp" />
+
+
+    <Button
+        android:id="@+id/throttle_position"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/throttleposition"
+        android:textSize="15sp"
+        android:translationY="115sp" />
+
+    <Button
+        android:id="@+id/history_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/history"
+        android:textSize="15sp"
+        android:translationY="135sp" />
+
+    <Button
+        android:id="@+id/clear_database_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/clear_database"
+        android:textSize="15sp"
+        android:translationY="155sp" />
+
+</LinearLayout>

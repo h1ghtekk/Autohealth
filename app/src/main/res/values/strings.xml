@@ -1,0 +1,44 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    //название
+    <string name="app_name">Autohealth</string>
+    //Кнопки
+    <string name="gotonextpage">Перейти на новую страницу</string>
+    <string name="gotosensors">Перейти к датчикам</string>
+    <string name="showdevices">Показать устройства</string>
+    <string name="enablebluetooth">Включить Bluetooth</string>
+    <string name="bluetoothstatus">Статус подключения</string>
+
+    //Статус подключения
+    <string name="connecting">Подключение...</string>
+    <string name="connectedto">Подключено к %1$s</string>
+    <string name="connected">Подключено</string>
+    <string name="not_connected">Не подключено</string>
+    <string name="open_sensors">Перейти к датчикам</string>
+    <string name="unabletoconnect">Не удалось подключить устройство</string>
+    <string name="connectionlost">Подключение к устройству потеряно</string>
+    <string name="bluetooth_disabled">Bluetooth отключен</string>
+    <string name="connection_timeout">Таймаут подключения</string>
+    <string name="connection_lost">Соединение потеряно</string>
+    <string name="reconnecting">Повторное подключение...</string>
+    <string name="connection_error">Ошибка подключения</string>
+    <string name="connect_bluetooth_first">Сначала подключитесь к Bluetooth</string>
+    <string name="device_not_found">Устройство не найдено</string>
+    <string name="connection_failed">Не удалось подключиться</string>
+    <string name="max_retries_reached">Достигнут лимит попыток подключения</string>
+
+    //Датчики автомобиля
+    <string name="enginerpms">Обороты двигателя</string>
+    <string name="vehiclespeed">Скорость автомобиля</string>
+    <string name="throttleposition">Положение дроссельной заслонки</string>
+    <string name="enginetemp">Температура охлаждающей жидкости</string>
+    <string name="massairflow">Массовый расход воздуха</string>
+
+    //Надписи в активити датчиков
+    <string name="aboutenginerpms">Данные о количестве оборотов двигателя</string>
+    <string name="aboutvehiclespeed">Данные о скорости автомобиля</string>
+    <string name="aboutenginetemperature">Данные о температуре охлаждающей жидкости</string>
+    <string name="aboutmassairflow">Данные о массовом расходе воздуха</string>
+    <string name="aboutthrottleposition">Данные о положении дроссельной заслонки</string>
+    <string name="history">История</string>
+    <string name="clear_database">Очистить БД</string>
+</resources>
